@@ -22,7 +22,7 @@ Please download the checkpoint of our model in Link
 
 - type command
 
-        python test_image.py --input_image YOUR_IMAGE_PATH ----restore_path CHECKPOINT_PATH
+        python test_image.py --input_image YOUR_IMAGE_PATH --restore_path CHECKPOINT_PATH
 
 Some Result
 
@@ -42,4 +42,4 @@ This dataset you can download in https://qmul-openlogo.github.io/
 
 ### 5.Experiments:
 
-Our project get 42.5 % mAP (mean Average Precision) on validation set
+Our project got 42.5 % mAP (mean Average Precision) on validation set
