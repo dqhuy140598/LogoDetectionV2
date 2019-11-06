@@ -6,7 +6,7 @@ import cv2
 import random
 
 
-def get_color_table(class_num, seed=2):
+def get_color_table(class_num, seed=10):
     random.seed(seed)
     color_table = {}
     for i in range(class_num):
